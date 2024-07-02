@@ -1,0 +1,29 @@
+.comment-list {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    /* פריסת ריבועים, עם רוחב מינימלי של 200px ואוטומטית כמה שיותאם בכל שורה */
+    /* מרווד בין האיברים */
+  }
+  
+  .comment-list {
+    max-width: 100%;
+    border-radius: 8px;
+    padding: 10px;
+    background-color: #ffffff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    transition: background-color 0.3s ease-in-out;
+  }
+  
+  .inputCommentBody {
+    color: #0b7694;
+  }
+  
+  .inputComment {
+    color: #000000;
+    font-weight: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+
+  .comment-list .divComment:hover {
+    background-color: #ffffff;
+  }
